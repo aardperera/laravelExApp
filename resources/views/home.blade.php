@@ -14,7 +14,19 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    <form>
+                        <div class="form-group">
+                            <label>Post Title</label>
+                            <input type="text" name="title" class="form-control" placeholder="Enter post title">
+                        </div>
+                        <div class="form-group">
+                            <label>Post Description</label>
+                            <textarea class="form-control" placeholder="Enter post description" rows="10"></textarea>
+                            
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Post</button>
+                    </form>
                 </div>
             </div>
         </div>
