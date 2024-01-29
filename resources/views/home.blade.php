@@ -21,7 +21,7 @@
                         </div>
                         <div class="form-group">
                             <label>Post Description</label>
-                            <textarea class="form-control" placeholder="Enter post description" rows="10"></textarea>
+                            <textarea name = "description" class="form-control" placeholder="Enter post description" rows="10"></textarea>
                             
                         </div>
                         
